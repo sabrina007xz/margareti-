@@ -11,7 +11,7 @@ header {
    justify-content: space-between;
 }
 
-.nav_liata {
+.nav_lista {
 display: flex;
 list-style: none;
 gap: 80px;
