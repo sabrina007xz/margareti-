@@ -10,3 +10,10 @@ header {
    align-items: center;
    justify-content: space-between;
 }
+
+.nav_liata {
+display: flex;
+list-style: none;
+gap: 80px;
+text-transform: uppercase;
+}
