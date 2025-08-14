@@ -1,18 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
-    width: 100%;
-padding: 20px 8%;
-  }
+  
+  width: 100%;
+  padding: 20px 8%;
+  background-color:cyan
+}
+#logo{
+  font-size: 1,5rem;
+  font-weight: 600;
+}
 .navbar {
-    width: 100%;
-    font-size: 50px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+  width: 100%;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav_lista {
-display: flex;
-list-style: none;
-gap: 80px;
-text-transform: uppercase;
+  display: flex;
+  list-style: none;
+  gap: 80px;
+  text-transform: uppercase;
+}
+
+
+.nav_item{
+  font-size: 25px;
+  color: deeppink;
 }
