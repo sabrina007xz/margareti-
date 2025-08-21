@@ -55,7 +55,7 @@ display: flex;
 }
 .titulo{
   font: size 4rem;
-  color: aliceblue;
+  color: rgb(250, 10, 10);
   justify-content: center;
 }
 .titulocor{
