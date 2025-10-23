@@ -1,24 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root {
+  --cor-primaria-1: #3D2B56;
+  --cor-primaria-2:#2C497F;
+  --cor-primaria-3: #808A9F;
+  --cor-primaria-4: #BAD29F;
+  --cor-primaria-5: #CCF5AC;
+
+  --cor-secundaria-1: #fff;
+  --cor-secundaria-2: #1d1d1d;
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Playfair Display", serif;
 }
 
 header {
-  
+
   width: 100%;
   padding: 20px 8%;
-  color: black;
-  top:0;
-  left:0;
+  background-color: blueviolet;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1000;
 
 }
-#logo{
-  font-size: 1,5rem;
+
+#logo {
+  font-size: 1, 5rem;
   color: cyan;
-font-size: 600;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  font-size: 600;
 }
+
 .navbar {
   width: 100%;
   font-size: 50px;
@@ -35,7 +55,7 @@ font-size: 600;
 }
 
 
-.nav_item{
+.nav_item {
   font-size: 25px;
   color: deeppink;
   cursor: pointer;
@@ -43,27 +63,30 @@ font-size: 600;
 }
 
 
-.nav_item:hover{
-background-color: rgb(171, 8, 241);
-color: greenyellow;
-text-decoration: underline;
+.nav_item:hover {
+  background-color: rgb(171, 8, 241);
+  color: greenyellow;
+  text-decoration: underline;
 }
 
 .home {
   display: flex;
   min-height: calc(100vh - 91px);
-  
+
 }
-section01{
+
+section01 {
   width: 100%;
-padding: 20px 8%;
-display: flex;
+  padding: 20px 8%;
+  display: flex;
 }
-.titulo{
+
+.titulo {
   font: size 4rem;
   color: rgb(250, 10, 10);
   justify-content: center;
 }
-.titulocor{
-color: rgb(179, 121, 255);
+
+.titulocor {
+  color: rgb(179, 121, 255);
 }
